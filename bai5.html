@@ -6,21 +6,40 @@
   <title>Bài 5 - Image and Text Demonstration</title>
 </head>
 <body>
-  <h1>IMAGES</h1>
+  <header>
+    <h1>IMAGES</h1>
+  </header>
 
-  <p>
-    <img src="images/scene.jpg" alt="Glacier landscape left" width="250" align="left">
-    A paragraph with an image. The align attribute of the image is set to "left". The image will float to the left of this text.
-  </p>
+  <main>
+    <section>
+      <article>
+        <figure>
+          <img src="images/scene.jpg" alt="Glacier landscape scenery" width="250">
+          <figcaption>Figure 1: Landscape demonstration aligned with text block.</figcaption>
+        </figure>
+        <p>
+          A paragraph with an image. 
+        </p>
+      </article>
 
-  <br clear="all">
-  <br>
+      <hr>
 
-  <p>
-    <img src="images/scene.jpg" alt="Glacier landscape right" width="250" align="right">
-    A paragraph with an image. The align attribute of the image is set to "right". The image will float to the right of this text.
-  </p>
+      <article>
+        <figure>
+          <img src="images/scene.jpg" alt="Glacier landscape scenery duplicate" width="250">
+          <figcaption>Figure 2: Second illustration block demonstrating structural reuse.</figcaption>
+        </figure>
+        <p>
+          A paragraph with an image. 
+        </p>
+      </article>
+    </section>
+  </main>
 
-  <p style="clear: both;"><br><a href="index.html">← Quay lại trang chủ</a></p>
+  <hr>
+
+  <footer>
+    <p><a href="index.html">← Quay lại trang chủ</a></p>
+  </footer>
 </body>
 </html>
